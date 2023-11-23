@@ -1,5 +1,6 @@
-crypto = require("crypto");
+const crypto = require("crypto");
 
-randomText = crypto.randomBytes(32).toString("hex");
+let randomText = crypto.randomBytes(32).toString("hex");
+
 
 console.log(randomText)
